@@ -1,0 +1,27 @@
+body
+{
+  margin: 50px;
+}
+table, th, td
+{
+  border: 2px double black;
+  border-color: purple;
+  border-radius: 5px
+}
+body
+{
+  background-color: lightblue;
+}
+img
+{
+  height: 50px
+}
+#oikea
+{
+  float: left;
+  margin-left: 1px
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-size: 20px;
+}
