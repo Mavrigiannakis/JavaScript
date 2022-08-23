@@ -1,0 +1,22 @@
+html
+{
+  font-family: arial;
+}
+h1
+{
+  font-size: 50px
+}
+#first
+{
+  font-style: italic;
+}
+h6,h5,h4,h3,h2
+{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0
+}
+li a
+{
+    color: green;
+}
