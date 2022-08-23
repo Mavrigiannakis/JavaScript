@@ -1,0 +1,53 @@
+﻿body
+.eka {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.toka {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+body {
+    margin: auto;
+    width: 800px;
+    background-image: url("kirja.jpg");
+}
+
+img {
+    margin: 5px 20px -5px 0px;
+    height: 200px;
+}
+
+section {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.ena {
+    clear: both;
+    
+    padding: 20px;
+}
+
+.duo {
+    clear: both;
+    
+    padding: 20px;
+}
+
+article {
+    
+}
+
+    article > h1 {
+        padding: 20px 0 0 20px;
+        text-align: center;
+    }
+
+section > h1 {
+    margin: 0px 0 10px 0;
+}
