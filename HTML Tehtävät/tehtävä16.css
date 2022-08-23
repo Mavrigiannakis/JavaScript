@@ -1,0 +1,90 @@
+h1
+{
+  color: green;
+  font-style: italic;
+}
+.duo
+{
+  color: red;
+  font-size: 20px;
+}
+.tria
+{
+  color: pink;
+  font-size: 30px;
+}
+.tessera
+{
+  color: purple;
+  font-size: 50px;
+}
+
+.pente
+{
+  color: green;
+  font-size: 50px;
+}
+
+.eksi
+{
+  color: green;
+  font-size: 50px;
+}
+.efta
+{
+  color: blue;
+  font-size: 30px;
+}
+.oxto
+{
+  color: orange;
+  font-size: 20px;
+}
+
+
+h4
+{font-style: oblique;
+font-size: 20px;}
+#toka
+{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+#eka
+{
+  color: blue;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif
+}
+h5
+{
+  font-size: 20px;
+  color: red;
+}
+h3
+{
+  font-size: 25px;
+  color: Gray;
+  font-family: Didot, serif;
+
+}
+#neljas {color: green;
+font-size: 20px;
+font-weight: bolder;
+font-family: cursive;
+
+}
+#kolmanes
+{
+  color: purple;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+h6
+{
+  font-size: 30px;
+  font-family: cursive;
+}
