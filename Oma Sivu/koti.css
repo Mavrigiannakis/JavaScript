@@ -29,6 +29,11 @@ aside > p
 {
   padding: 10px;
 }
+img
+{
+width: 170px;
+
+}
 aside
 {
   height: 540px;
@@ -40,12 +45,14 @@ section
 {
   background-color: #C3BED0;
   width: 700px;
+  height: 270px;
 }
 aside, section
 {
   padding: 5px 0px 10px 10px;
 }
-footer {  
+footer
+{
   position: absolute;
   bottom: 0;
   width: 790px;
