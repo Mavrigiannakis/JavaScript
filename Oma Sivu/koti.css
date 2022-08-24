@@ -8,13 +8,18 @@ header, footer
   background-color: #FFFACD;
   padding: 5px 0px 10px 10px;
 }
+html
+{
+font-family: fantasy;
+}
+
 header > h1, footer
 {
   color: #2F15A2  ;
 }
 nav
 {
-  width: 266px;
+  width: 289px;
   margin: auto;
   background-color: #DBD494;
   border: 2px solid black;
@@ -27,6 +32,7 @@ aside > p
 aside
 {
   height: 540px;
+  width: 200px;
   float: right;
   background-color: #B7AE5F;
 }
@@ -39,7 +45,7 @@ aside, section
 {
   padding: 5px 0px 10px 10px;
 }
-footer {
+footer {  
   position: absolute;
   bottom: 0;
   width: 790px;
