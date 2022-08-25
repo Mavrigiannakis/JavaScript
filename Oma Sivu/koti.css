@@ -19,6 +19,7 @@ header > h1, footer
 }
 nav
 {
+  border-radius: 25px;
   width: 289px;
   margin: auto;
   background-color: #87CEFA;
@@ -56,5 +57,5 @@ footer
   position: absolute;
   bottom: 0;
   width: 790px;
-  height: 2.5rem;
+  height: 59px;
 }
