@@ -5,7 +5,7 @@ body
 }
 header, footer
 {
-  background-color: #FFFACD;
+  background-color: #48D1CC;
   padding: 5px 0px 10px 10px;
 }
 html
@@ -19,9 +19,10 @@ header > h1, footer
 }
 nav
 {
+  border-radius: 25px;
   width: 289px;
   margin: auto;
-  background-color: #DBD494;
+  background-color: #87CEFA;
   border: 2px solid black;
   padding: 4px;
 }
@@ -29,25 +30,32 @@ aside > p
 {
   padding: 10px;
 }
+img
+{
+width: 170px;
+
+}
 aside
 {
   height: 540px;
   width: 200px;
   float: right;
-  background-color: #B7AE5F;
+  background-color: #AFEEEE;
 }
 section
 {
-  background-color: #C3BED0;
+  background-color: #E0FFFF;
   width: 700px;
+  height: 270px;
 }
 aside, section
 {
   padding: 5px 0px 10px 10px;
 }
-footer {
+footer
+{
   position: absolute;
   bottom: 0;
   width: 790px;
-  height: 2.5rem;
+  height: 59px;
 }
