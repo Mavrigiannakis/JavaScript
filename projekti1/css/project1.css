@@ -1,0 +1,90 @@
+body
+{
+  background: #f5f5dc;
+  font-family: 'Crimson Pro',
+  serif;
+  font-size: 16px;
+}
+main
+{
+  display: table;
+  width: 70%;
+  margin: 10px auto;
+  overflow: auto;
+}
+header
+{
+  max-width: 500px;
+  margin: auto;
+}
+section
+{
+  max-width: 500px;
+  margin: auto;
+}
+nav
+{
+  color: purple;
+  border-radius: 25px;
+  width: 206px;
+  margin: auto;
+  border: 2px solid black;
+  padding: 4px;
+  float: right;
+}
+hr
+{
+  color: #DDD;
+  width: 28%
+}
+footer
+{
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+strong
+{
+  font-weight: bold;
+}
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+#title
+{
+  padding-left: 50px;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#britzola2
+{
+  float: left;
+  max-width: 10%;
+  border-radius: 50px;
+}
+#britzola
+{
+  float: left;
+  max-width: 10%;
+  border-radius: 50px;
+}
+#souvlaki
+{
+  border-radius: 5px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+#reviews
+{
+  float: left;
+  max-width: 15%;
+  border-radius: 50px;
+}
