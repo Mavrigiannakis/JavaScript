@@ -22,6 +22,11 @@ section
   max-width: 500px;
   margin: auto;
 }
+h2
+{
+  font-family: cursive;
+  padding-bottom: 10px;
+}
 nav
 {
   color: purple;
@@ -65,12 +70,14 @@ strong
 }
 #britzola2
 {
+  padding-right: 5px;
   float: left;
   max-width: 10%;
   border-radius: 50px;
 }
 #britzola
 {
+  padding-right: 5px;
   float: left;
   max-width: 10%;
   border-radius: 50px;
