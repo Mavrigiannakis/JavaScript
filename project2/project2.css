@@ -1,0 +1,56 @@
+.container
+{
+  padding: 60px 0px 0px 0px;
+}
+main
+{
+  background: #EEEEEE;
+  display: table;
+  width: 70%;
+  margin: 10px auto;
+  overflow: auto;
+}
+hr
+{
+  color: #DDD;
+  width: 85%
+}
+h3
+{text-align: center;}
+.textcenter
+{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.figure
+{
+  border-radius: 4px;
+  background-color: white;
+  align-items: center;
+  padding: 10px 10px 10px 0px;
+}
+.tribute-info
+{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+#kuva
+{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 4px;
+
+}
+#otsikko
+{
+  text-align: center;
+  font-size: 40px;
+}
+#Writter
+{
+  text-align: center;
+  padding-bottom: 30px;
+}
