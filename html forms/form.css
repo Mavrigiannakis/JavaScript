@@ -1,0 +1,84 @@
+main
+{
+  background: #f5f5dc;
+  display: table;
+  width: 20%;
+  margin: 10px auto;
+  overflow: auto;
+  padding: 30px;
+}
+h1
+{
+  text-align: center;
+}
+input
+{
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+/*#Lähetä
+{
+  border-radius: 0px;
+  float: left;
+}
+#Tyhjenä
+{
+  float: right;
+  border-radius: 0px;
+}*/
+#etunimi
+{
+  float: right;
+}
+#sukunimi
+{
+  float: right;
+}
+#käyttäjätunnus
+{
+  float: right;
+}
+#Salasana
+{
+  float: right;
+}
+#Mies
+{
+  float: right;
+}
+#Nainen
+{
+  float: right;
+}
+#subject
+{
+  float: right;
+}
+#jäsenyystaso
+{
+  background-color: white;
+  float: right;
+}
+.checkbox
+{
+  float: right;
+}
+input[type=submit]
+{
+  clear: both;
+  display: inline-block;
+  margin-top: 70px;
+}
+/*
+#PHP
+{
+  float: right;
+}
+#HTML
+{
+  float: right;
+}
+#CSS
+{
+  float: right;
+}*/
