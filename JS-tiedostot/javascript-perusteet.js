@@ -20,3 +20,13 @@ function liitaSanat()
   t3 = "hyvä opiskelija";
   console.log(t1 + t2 +t3)
 }
+function attribuutti(nimi)
+{
+  var t1 = " on ";
+  var t2 = " hyvä opiskelija ";
+  console.log(nimi + t1 +t2);
+}
+function laskeYhteen(luku1, luku2)
+{
+  console.log(luku1 + luku2);
+}
