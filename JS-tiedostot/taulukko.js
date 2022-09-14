@@ -9,9 +9,8 @@ function esimerkkiTaulukko()
   var siirettava = caarat.pop();
   document.write("Siirettävä = " + siirettava);
   document.write("<br />Caarat taulukko = " + caarat);
-  autot.unshift(siirettava)
+  autot.unshift(siirettava);
   document.write("<br />Autot taulukko = " + autot);
-  caarat.push() = autot.pop();
   document.write("<br />Caarat taulukko = " + caarat + "<br />Autot taulukko = " + autot);
 
 
