@@ -1,4 +1,4 @@
-// For looppi
+
 function fors()
 {
   var vast = "";
@@ -8,7 +8,7 @@ function fors()
      document.getElementById('vastaus').innerHTML = vast;
   }
 }
-// While looppi
+/
 function whiles()
 {
   var vast = "";
@@ -20,7 +20,7 @@ function whiles()
     j++;
   }
 }
-// Do-while looppi
+
 function dos()
 {
   var vast = "";
