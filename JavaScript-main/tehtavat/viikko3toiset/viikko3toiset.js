@@ -20,11 +20,11 @@ function laskePisteet()
         pisteet++;
         break;
       case 'o':
-      case 'ä':
+      case 'ÃƒÂ¤':
       case 'k':
       case 'l':
       case 'O':
-      case 'Ä':
+      case 'Ãƒâ€ž':
       case 'K':
       case 'L':
         pisteet+=2;
@@ -49,9 +49,9 @@ function laskePisteet()
       case 'V':
         pisteet+=4;
         break;
-      case 'ö':
+      case 'ÃƒÂ¶':
       case 'd':
-      case 'Ö':
+      case 'Ãƒâ€“':
       case 'D':
         pisteet+=7;
         break;
@@ -73,30 +73,6 @@ function laskePisteet()
     document.getElementById('tscrabble').innerHTML = "<p>Sanan " + annettuSana + " pisteet ovat: " + pisteet + "</p>";
   }
 }
-function arvoLotto()
-{
-  var lnumerot = [];
-  var temp;
-  for(var lotto = 0; lotto < 7; lotto++)
-  {
-    temp = Math.floor(Math.random()*40)+1;
-    for(var i = 0; i < lnumerot.length; i++)
-    {
-      if(temp == lnumerot[i])
-      {
-        lotto--;
-      }
-      else {
-        lnumerot[lotto] = temp;
-      }
-    }
-
-  }
-  lnumerot.sort(function(a, b){return a-b});
-  alert(lnumerot);
-  document.getElementById('ltaulu').innerHTML = '<p>'+lnumerot+'</p>';
-}
-
 function muunnaTaulukoksi()
 {
   var jono = [];
@@ -134,7 +110,7 @@ function arvoKortit()
 {
   var pakka = [''];
   var maat = ['&#9828;', '&#9827;', '&#9826;', '&#9825;'];
-  var maat = ['pa','ri','ru', 'he']
+  //var maat = ['pa','ri','ru', 'he']
   var numerot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
   laskuri = 0;
   for(m = 0; m < maat.length; m++)
@@ -145,28 +121,31 @@ function arvoKortit()
       {
         pakka[laskuri] = maat[m] + numerot[n];
       }
-      else
-      {
+      else {
         pakka[laskuri] = maat[m]+numerot[n];
         laskuri++;
       }
+
     }
   }
   var kortit = [];
   for(l = 0; l < 5; l++)
   {
       temp = pakka[Math.floor(Math.random()*52)];
-      console.log(temp);
-      for(var x = 0; x < kortit.length; x++)
-      {
-        if(temp == kortit[i])
-        {
-          l--;
-        }
-        else {
-          kortit[l] = temp;
-        }
-      }
+      kortit[l] = temp;
   }
   document.getElementById('pakka').innerHTML = '<p>'+kortit+'</p>';
+}
+function arvoLotto()
+{
+  var lnumerot = [];
+  var temp;
+  for(var lotto = 0; lotto < 7; lotto++)
+  {
+    temp = Math.floor(Math.random()*40)+1;
+    lnumerot[lotto] = temp;
+  }
+  lnumerot.sort(/*function(a, b){return a-b}*/);
+
+  document.getElementById('ltaulu').innerHTML = '<p>'+lnumerot+'</p>';
 }
