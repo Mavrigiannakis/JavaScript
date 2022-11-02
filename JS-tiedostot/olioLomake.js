@@ -14,7 +14,7 @@ function tayta()
   uusiNimi = enimi+snimi;
   this[uusiNimi] = new Henkilo(enimi, snimi, puh);
   console.log(uusiNimi);
-  console.log(JyriLindroos.etunimi);
-  console.log("\n"+JyriLindroos.sukunimi);
-  console.log("\n"+JyriLindroos.puhelin);
+  console.log(StylianosMavrigiannakis.etunimi);
+  console.log("\n"+StylianosMavrigiannakis.sukunimi);
+  console.log("\n"+StylianosMavrigiannakis.puhelin);
 }
