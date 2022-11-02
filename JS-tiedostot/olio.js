@@ -19,5 +19,5 @@ function nayta()
       this.puhelin+ "<br />" +
       this.email + "<br />");
   }
-var Jyri = new Henkilo("Jyri","Lindroos","Keskikatu 3", "04300", "Kerava", 358401744562, "jyri.lindroos@keuda.fi");
-var Eeva = new Henkilo("Eeva","Tervala","Keskikatu 3", "04300", "Kerava", 358401744555, "eeva.tervala@keuda.fi");
+var Stylianos = new Henkilo("Stylianos","Mavrigiannakis","Jotain 3", "04300", "Kerava", 3581931039, "stylianos.mavrigiann@keuda.fi");
+var Joku = new Henkilo("Joku","Joku","Keskikatu 3", "04300", "Kerava", 35812313131, "joku".joku@keuda.fi");
