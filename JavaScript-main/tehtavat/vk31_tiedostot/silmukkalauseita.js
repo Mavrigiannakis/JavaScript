@@ -40,7 +40,7 @@ function laskeKertoma()
   var laskettu = 1;
   for(var z = 1; z <= kerLuku; z++)
   {
-    laskettu *= z; // laskettu = laskettu * z;
+    laskettu *= z;
   }
   document.getElementById('kertomaVastaus').innerHTML = '<p>Luvun ' + kerLuku + ' kertoma on '+laskettu + '</p>';
 }
@@ -105,7 +105,7 @@ function etsiSuurinPienin()
     temp = document.getElementById('taulukko'+x).value;
     temp = parseInt(temp);
     taulu.push(temp);
-    //alert(taulu);
+
   }
   taulu = taulu.sort((a,b) => a-b);
   document.getElementById('lukujenTulostusT').innerHTML = '<p>Pienin luku: ' + taulu[0] + ' ja suurin luku: '+ taulu[taulu.length-1];
@@ -122,14 +122,14 @@ function muokkaaSalasana()
   for(var s = 0; s < pw.length; s++)
   {
     eka = pw[s];
-    //alert[pw];
-    //alert[eka];
+    alert[pw];
+    alert[eka];
     temp.push(eka);
-    //alert(eka);
+    alert(eka);
     var lisa = Math.floor(Math.random()*taulu.length);
     toka = taulu[lisa];
     temp.push(toka);
-    //alert(toka);
+    alert(toka);
   }
   lop = temp.join('');
   document.getElementById('lukujenTulostusS').innerHTML = lop;
@@ -150,7 +150,7 @@ function llisettomat()
   {
     pluvut += b + ' ';
     psumma += b;
-    //alert(pluvut + ' ' + psumma);
+    alert(pluvut + ' ' + psumma);
   }
   if(nro1%2 == 0)
   {

@@ -4,7 +4,7 @@ function kolmel()
   luku[0] = document.getElementById('l1').value;
   luku[1] = document.getElementById('l2').value;
   luku[2] = document.getElementById('l3').value;
-  /*document.getElementById('t1').innerHTML = luku.sort();*/
+  
   if(luku1 < luku2 && luku1 < luku3)
   {
     if(luku2 < luku3)

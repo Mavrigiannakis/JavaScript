@@ -90,7 +90,7 @@ function arvoLotto()
         lnumerot[lotto] = temp;
       }
     }
-    //lnumerot[lotto] = temp;
+
   }
   lnumerot.sort(function(a, b){return a-b});
   alert(lnumerot);
@@ -134,7 +134,7 @@ function arvoKortit()
 {
   var pakka = [''];
   var maat = ['&#9828;', '&#9827;', '&#9826;', '&#9825;'];
-  //var maat = ['pa','ri','ru', 'he']
+  var maat = ['pa','ri','ru', 'he']
   var numerot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
   laskuri = 0;
   for(m = 0; m < maat.length; m++)
