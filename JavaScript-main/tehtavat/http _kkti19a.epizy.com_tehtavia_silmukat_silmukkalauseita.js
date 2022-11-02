@@ -150,7 +150,7 @@ function llisettomat()
   {
     pluvut += b + ' ';
     psumma += b;
-    //alert(pluvut + ' ' + psumma);
+    
   }
   if(nro1%2 == 0)
   {
