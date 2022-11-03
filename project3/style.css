@@ -27,16 +27,16 @@ body {
   transform: translateZ(-1px) scale(2);
 }
 .background--spring {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Precincts_of_Watari-jinja_shrine_in_Spring_season_2.JPG');
+  background-image: url('https://www.publicdomainpictures.net/pictures/30000/velka/spring-tree-1335342782YgV.jpg');
 }
 .background--summer {
-  background-image: url('https://images.pexels.com/photos/375152/summer-sun-blooming-season-375152.jpeg?cs=srgb&dl=beautiful-bloom-blossom-375152.jpg&fm=jpg');
+  background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_912592258_366180.jpg');
 }
 .background--fall {
-  background-image: url('https://images.pexels.com/photos/33060/road-forest-season-autumn.jpg?cs=srgb&dl=autumn-fall-forest-33060.jpg&fm=jpg');
+  background-image: url('https://cdn.britannica.com/88/137188-050-8C779D64/Boston-Public-Garden.jpg');
 }
 .background--winter {
-  background-image: url('https://images.pexels.com/photos/235595/pexels-photo-235595.jpeg?cs=srgb&dl=branches-cold-season-235595.jpg&fm=jpg');
+  background-image: url('https://ichef.bbci.co.uk/images/ic/1008xn/p07wnf3h.jpg');
 }
 .title {
   position: absolute;
@@ -66,7 +66,7 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;}
-  
+
   .desc-wrapper {
     margin: auto;
     box-sizing: border-box;
