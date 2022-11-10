@@ -51,13 +51,13 @@ body {
   height: 100px;
   color: white;
   font-size: 5rem;
-  background: rgba(0,0,0,0.4);
+  background: rgba(1,0,2,0.4);
 }
 
 .season-desc {
   z-index: 1;
   position: relative;
-  background: #282E34;
+  background: gray;
   color: white;
   font-size: 1.1rem;
   letter-spacing: 2px;
